@@ -1,0 +1,151 @@
+html, body {
+    font-family: 'Muli';
+    background-color: #FFFFFF;
+}
+
+.log{
+    border-style: ridge;
+    border-width: 3px;
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sec1{
+
+    font-size: medium;
+    background: #1A76B9;
+    width: 600px;
+    border-radius: 2px solid black;
+    height:70vh;
+    padding-top: 30px;
+   
+    padding-left: 50px;
+    color: white;
+   
+}
+
+#img1{
+    height: 100px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 30%;
+}
+
+#img2{
+    height: 120px;
+    width: 180px;
+    margin-left: 33%;
+    margin-top: 10px;
+      
+}
+
+.linehr{
+    display: flex;
+}
+
+#line{
+    border: 3px solid#D83339;
+    border-radius: 3px;
+    width: 11.5%;
+    background-color:#D83339 ;
+}
+
+#line1{
+    border: 3px solid#FFFFFF;
+    border-radius: 3px;
+    width: 11.5%;
+    
+
+}
+
+#hrlog{
+    border: 2px solid#1A76B9;
+    border-radius: 2px;
+    width: 11.5%;
+    background-color:#1A76B9 ;  
+    margin-left: 45%;
+}
+
+
+
+
+.sec2{
+    font-size: medium;
+    background: #FFFFFF;
+    width: 600px;
+    border-radius: 2px solid #000000;
+    height:70vh;
+    text-align: center;
+    padding-bottom: 30%;
+       
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 8px 15px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000000;
+  }
+
+  .button {
+    background-color: #1A76B9; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 5px;
+    cursor: pointer;
+    padding: 14px 42px
+    
+  }
+  
+
+#param{
+    padding-top: 20px;
+}
+
+.log{
+    display: flex;
+}
+
+.circle{
+    top: 7rem;
+    position: absolute;
+    margin: 0;
+    left: 47%;
+    
+    
+    
+    
+   
+}
+
+#outer-circle {
+    background: #FFFFFF;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    /* 
+     Child elements with absolute positioning will be 
+     positioned relative to this div 
+    */
+  }
+  #inner-circle {
+    position: absolute;
+    background: #D83339;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    top: 50%;
+    left: 50%;
+    margin: -21px -22px;
+    
+  }
